@@ -46,9 +46,9 @@ layers:
   - V
   - B
   - '&mkp LCLK'
-  - '2'
   - N
-  - M
+  - N
+  - '2'
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
@@ -170,9 +170,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: '$$mdi:bluetooth-connect$$', h: '1', type: held}
+  - {t: '$$mdi:bluetooth-connect$$', h: '1'}
   - {t: '$$mdi:bluetooth-connect$$', h: '2'}
-  - {t: '$$mdi:bluetooth-connect$$', h: '3'}
+  - {t: '$$mdi:bluetooth-connect$$', h: '3', type: held}
   - {t: '$$mdi:bluetooth-connect$$', h: '4'}
   - {t: '$$mdi:bluetooth-connect$$', h: '5'}
   - {t: ▽, type: trans}
