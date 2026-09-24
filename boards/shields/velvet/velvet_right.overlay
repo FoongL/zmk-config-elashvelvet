@@ -33,9 +33,10 @@
         ;
 };
 
-/* Keep PMW3610 sensor in active Run mode to prevent sleep-wake freezes */
+/* Keep PMW3610 sensor in active Run mode & stabilize SPI communications */
 &trackball {
     force-awake;
+    spi-max-frequency = <1000000>;
 };
 
 / {
