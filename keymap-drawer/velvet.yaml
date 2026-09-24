@@ -53,8 +53,8 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-control$$
-  - LGUI
   - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:backspace-outline$$', type: backspace}
   - $$mdi:backspace-reverse$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
