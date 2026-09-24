@@ -438,9 +438,9 @@ rect.held, rect.combo.held {
 </g>
 <g transform="translate(840, 196)" class="key keypos-47">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#x_x">
-<text x="0" y="0" class="key tap layer-activator">2</text>
-</a></g>
+<text x="0" y="0" class="key tap">,</text>
+<text x="0" y="-24" class="key shifted">&lt;</text>
+</g>
 <g transform="translate(896, 210)" class="key keypos-48">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">,</text>
@@ -448,14 +448,14 @@ rect.held, rect.combo.held {
 </g>
 <g transform="translate(952, 231)" class="key keypos-49">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">.</text>
-<text x="0" y="-24" class="key shifted">&gt;</text>
-</g>
-<g transform="translate(1008, 231)" class="key keypos-50">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">/</text>
 <text x="0" y="-24" class="key shifted">?</text>
 </g>
+<g transform="translate(1008, 231)" class="key keypos-50">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<a href="#x_x">
+<text x="0" y="0" class="key tap layer-activator">2</text>
+</a></g>
 <g transform="translate(140, 266)" class="key keypos-51">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:apple-keyboard-control"/>
@@ -963,11 +963,11 @@ rect.held, rect.combo.held {
 <a href="#x_x">
 <text x="0" y="24" class="key hold layer-activator">2</text>
 </a></g>
-<g transform="translate(840, 196)" class="key held keypos-47">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
-<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="-9" y="-9" height="18" width="18.0" class="key held tap glyph mdi:bluetooth-connect"/>
+<g transform="translate(840, 196)" class="key keypos-47">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:bluetooth-connect"/>
 <a href="#x_x">
-<text x="0" y="24" class="key held hold layer-activator">3</text>
+<text x="0" y="24" class="key hold layer-activator">3</text>
 </a></g>
 <g transform="translate(896, 210)" class="key keypos-48">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -981,9 +981,8 @@ rect.held, rect.combo.held {
 <a href="#x_x">
 <text x="0" y="24" class="key hold layer-activator">5</text>
 </a></g>
-<g transform="translate(1008, 231)" class="key trans keypos-50">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(1008, 231)" class="key held keypos-50">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
 </g>
 <g transform="translate(140, 266)" class="key trans keypos-51">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>

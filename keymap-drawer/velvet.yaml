@@ -48,10 +48,10 @@ layers:
   - '&mkp LCLK'
   - N
   - M
-  - '2'
   - {t: ',', s: <}
-  - {t: ., s: '>'}
+  - {t: ',', s: <}
   - {t: /, s: '?'}
+  - '2'
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
@@ -172,10 +172,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: '$$mdi:bluetooth-connect$$', h: '1'}
   - {t: '$$mdi:bluetooth-connect$$', h: '2'}
-  - {t: '$$mdi:bluetooth-connect$$', h: '3', type: held}
+  - {t: '$$mdi:bluetooth-connect$$', h: '3'}
   - {t: '$$mdi:bluetooth-connect$$', h: '4'}
   - {t: '$$mdi:bluetooth-connect$$', h: '5'}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
