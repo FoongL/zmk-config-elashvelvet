@@ -49,7 +49,7 @@ layers:
   - N
   - M
   - {t: ',', s: <}
-  - {t: ',', s: <}
+  - {t: ., s: '>'}
   - {t: /, s: '?'}
   - '2'
   - $$mdi:apple-keyboard-control$$
